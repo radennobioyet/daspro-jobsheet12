@@ -98,8 +98,8 @@ Jawaban
 2. Tipe kembalian: int. 
 - Parameter pilihanMenu = nomor menu yang dipilih. 
 - Parameter banyakItem = jumlah pesanan untuk menu tersebut. 
-3. ```
-
+3. 
+```
 import java.util.Scanner;
 
 public class Kafe20 {
@@ -159,8 +159,8 @@ public class Kafe20 {
     }
 }
 ```
-4. ```
-
+4. 
+```
 import java.util.Scanner;
 
 public class Kafe20 {
