@@ -30,6 +30,7 @@ public class programKu {
 ```
 4. Pada saat apakah fungsi yang kita buat harus menggunakan parameter atau tidak? Pada saat apakah fungsi yang kita buat harus memiliki nilai kembalian atau tidak? Jelaskan! 
 5. Jelaskan kapan sebuah fungsi sebaiknya menggunakan parameter dan kapan fungsi boleh tanpa parameter, dengan mengacu pada fungsi hitungLuas dan hitungVolume di Percobaan 5. 
+6. Jelaskan kapan sebuah fungsi sebaiknya memiliki nilai kembalian (return value) dan kapan tidak perlu memiliki nilai kembalian, dengan mengacu pada fungsi main, hitungLuas, dan hitungVolume. 
 
 
 
@@ -57,3 +58,5 @@ Alur:
    - Pakai return jika hasilnya dipakai lagi. 
 
 5. hitungLuas dan hitungVolume pakai parameter karena butuh panjang, lebar, tinggi dari luar. Tanpa parameter cocok untuk aksi tetap (misal cetak teks). 
+6. - hitungLuas dan hitungVolume punya return karena hasilnya ditampilkan.  
+   - main() tidak perlu return karena hanya menjalankan program. 
