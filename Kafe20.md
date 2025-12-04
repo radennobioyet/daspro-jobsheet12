@@ -27,6 +27,7 @@ Pertanyaan
 3. Apakah parameter sama dengan variabel? Jelaskan. 
 4. Jelaskan bagaimana cara kerja parameter isMember pada fungsi Menu(). Apa perbedaan output ketika isMember bernilai true dan ketika false? 
 5. Apa yang akan terjadi jika memanggil fungsi Menu() tanpa menyertakan parameter namaPelanggan dan isMember? 
+6. Modifikasi kode di atas dengan menambahkan parameter baru kodePromo (String). Jika kodePromo adalah "DISKON50", tampilkan berikan diskon 50%. Jika kodePromo adalah "DISKON30", tampilkan berikan diskon 30%. Jika tidak ada kode promo yang berlaku, tampilkan kode invalid. 
 
 
 
@@ -38,3 +39,38 @@ Jawaban
 3. Parameter adalah variabel khusus dalam fungsi yang menerima nilai dari luar fungsi. Jadi parameter termasuk variabel, tetapi tidak semua variabel adalah parameter.
 4. Jika isMember true tampilan akan menampilkan pesan dan diskon ,Jika isMember false tampilan akan menampilkan bukan member 
 5. Program eror atau tidak dapat dijalankan karena jumlah dan tipe parameter tidak sesuai.
+6. 
+```
+public class Kafe20 {
+    public static void main(String[] args) {
+
+        Menu("Andi", true, "DISKON50");
+    }
+
+    public static void Menu(String namaPelanggan, boolean isMember, String kodePromo) {
+        System.out.println("Selamat datang di Resto Cafe, " + namaPelanggan + "!");
+
+        if (isMember) {
+            System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian!");
+        }
+
+        if (kodePromo.equals("DISKON50")) {
+            System.out.println("Kode promo valid: diskon 50% diberikan");
+        } else if (kodePromo.equals("DISKON30")) {
+            System.out.println("Kode promo valid: diskon 30% diberikan");
+        } else {
+            System.out.println("Kode promo tidak valid");
+        }
+
+        System.out.println("==== MENU RESTO CAFE ====:");
+        System.out.println("1. Kopi hitam - Rp 15.000");
+        System.out.println("2. Cappucino - Rp 20.000");
+        System.out.println("3. Latte - Rp 22.000");
+        System.out.println("4. Teh tarik - Rp 12.000");
+        System.out.println("5. Roti Bakar - Rp 10.000");
+        System.out.println("6. Mie Goreng - Rp 18.000");
+        System.out.println("============================");
+        System.out.println("Silahkan pilih menu yang diinginkan:");
+    }
+}
+```
