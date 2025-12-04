@@ -25,6 +25,7 @@ Pertanyaan
 1. Apakah kegunaan parameter di dalam fungsi?  
 2. Jelaskan mengapa pada percobaan ini fungsi Menu() menggunakan parameter namaPelanggan dan isMember?
 3. Apakah parameter sama dengan variabel? Jelaskan. 
+4. Jelaskan bagaimana cara kerja parameter isMember pada fungsi Menu(). Apa perbedaan output ketika isMember bernilai true dan ketika false? 
 
 
 
@@ -34,3 +35,4 @@ Jawaban
 1. Parameter berguna untuk mengirimkan data dari luar fungsi, sehingga fungsi dapat dipakai ulang dan menghasilkan output yang berbeda sesuai inputnya.
 2. Fungsi Menu() menggunakan parameter tersebut agar dapat menampilkan nama pelanggan dan mengecek status member, sehingga isi menu yang tampil bisa menyesuaikan kondisi setiap pelanggan.
 3. Parameter adalah variabel khusus dalam fungsi yang menerima nilai dari luar fungsi. Jadi parameter termasuk variabel, tetapi tidak semua variabel adalah parameter.
+4. Jika isMember true tampilan akan menampilkan pesan dan diskon ,Jika isMember false tampilan akan menampilkan bukan member 
