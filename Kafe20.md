@@ -23,6 +23,7 @@ Jawaban
 
 Pertanyaan
 1. Apakah kegunaan parameter di dalam fungsi?  
+2. Jelaskan mengapa pada percobaan ini fungsi Menu() menggunakan parameter namaPelanggan dan isMember?
 
 
 
@@ -30,3 +31,4 @@ Pertanyaan
 
 Jawaban
 1. Parameter berguna untuk mengirimkan data dari luar fungsi, sehingga fungsi dapat dipakai ulang dan menghasilkan output yang berbeda sesuai inputnya.
+2. Fungsi Menu() menggunakan parameter tersebut agar dapat menampilkan nama pelanggan dan mengecek status member, sehingga isi menu yang tampil bisa menyesuaikan kondisi setiap pelanggan.
