@@ -5,6 +5,7 @@
 Pertanyaan
 1. Jelaskan mengapa penulisan parameter di praktikum 4 ditulis dengan String... namaPengunjung! 
 2. Modifikasi method daftarPengunjung menggunakan for-each loop.
+3. Bisakah menggunakan dua tipe data varaargs dalam satu fungsi? Jelaskan jawaban Anda berdasarkan aturan varargs di Java, dan berikan contohnya! 
 
 
 
@@ -29,3 +30,6 @@ public class PengunjungKafe20 {
     }
 }
 ```
+3. Tidak bisa. Java hanya mengizinkan satu varargs dan harus berada di akhir parameter. 
+- Contoh: public static void contoh(String kategori, String... namaPengunjung) { } //benar 
+Varargs di java memungkinkan sebuah method menerima banyak input tanpa harus membuat array. Satu method hanya boleh punya satu varargs, dan harus diletakkan terakhir jika ada parameter lain. Kalau ingin menggunakan dua tipe data sekaligus, bisa digabungkan dengan parameter biasa atau array, sehingga tetap fleksibel dan mudah digunakan.
