@@ -15,3 +15,18 @@ Jawaban
 2. Daftar menu bisa di tampilkan tanpa fungsi Menu() dengan menuliskan seluruh perintah output langsung di dalam main. 
 3. Menggunakan fungsi menu() membuat program lebih rapi, mudah dibaca, mudah digunakan ulang, dan lebih mudah dirawat dibanding menulis semuanya di dalam main()
 4. Program di jalankan memulai dari main() selanjutnya baris menu(); di dalam main() di panggil selanjutnya program masuk ke fungsi Menu() selanjutnya semua perintah println() dalam Menu() di eksekusi setelah selesai program kembali ke main(). 
+
+
+
+
+# Percobaan 2
+
+Pertanyaan
+1. Apakah kegunaan parameter di dalam fungsi?  
+
+
+
+
+
+Jawaban
+1. Parameter berguna untuk mengirimkan data dari luar fungsi, sehingga fungsi dapat dipakai ulang dan menghasilkan output yang berbeda sesuai inputnya.
