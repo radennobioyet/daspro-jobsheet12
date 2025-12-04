@@ -78,3 +78,21 @@ public class Kafe20 {
 ```
 7. Menu("Budi", true, "DISKON30"); 
 8. Penggunaan parameter menjadikan fungsi Menu() lebih bersih, fleksibel, dan mudah dikembangkan dibanding menulis nilai tetap langsung di dalam fungsi.
+
+
+# Percobaan 3
+
+Pertanyaan
+1. Jelaskan secara singkat kapan suatu fungsi membutuhkan nilai kembalian (return value) dan kapan fungsi tidak perlu mengembalikan nilai. Berikan minimal satu contoh dari program kafe pada Percobaan 3 untuk masing-masing kasus. 
+
+
+
+
+Jawaban
+1. Kapan fungsi butuh nilai kembalian dan kapan tidak: 
+- Butuh nilai kembalian: Jika fungsi menghasilkan data yang akan digunakan 
+kembali. Contoh: hitungTotalHarga01() mengembalikan total harga 
+(int).  
+- Tidak butuh nilai kembalian: Jika fungsi hanya melakukan aksi seperti 
+mencetak ke layar. Contoh: Menu() hanya menampilkan teks, tidak 
+mengembalikan nilai. 
