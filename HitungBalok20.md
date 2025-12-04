@@ -28,6 +28,7 @@ public class programKu {
     }
 }
 ```
+4. Pada saat apakah fungsi yang kita buat harus menggunakan parameter atau tidak? Pada saat apakah fungsi yang kita buat harus memiliki nilai kembalian atau tidak? Jelaskan! 
 
 
 
@@ -50,3 +51,6 @@ Alur:
 - Di dalam TampilJumlah, dipanggil Jumlah(2, 5) → hasilnya 7. 
 - Kemudian TampilHinggaKei(7) dipanggil → mencetak angka dari 1 sampai 7: 1234567. 
 - Tapi karena Jumlah(1, 1) = 2 dan Jumlah(2, 5) = 7 → total = 9, dan TampilHinggaKei(9) akan mencetak 123456789. 
+
+4. - Pakai parameter jika fungsi butuh input.  
+   - Pakai return jika hasilnya dipakai lagi. 
