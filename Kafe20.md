@@ -84,15 +84,15 @@ public class Kafe20 {
 
 Pertanyaan
 1. Jelaskan secara singkat kapan suatu fungsi membutuhkan nilai kembalian (return value) dan kapan fungsi tidak perlu mengembalikan nilai. Berikan minimal satu contoh dari program kafe pada Percobaan 3 untuk masing-masing kasus. 
+2. Fungsi hitungTotalHargaNoAbsen saat ini mengembalikan total harga berdasarkan pilihanMenu dan jumlahPesanan. Sebutkan tipe data nilai kembalian dan dua buah parameter yang digunakan fungsi tersebut. Jelaskan arti masing-masing parameter dalam konteks program kafe. 
 
 
 
 
 Jawaban
 1. Kapan fungsi butuh nilai kembalian dan kapan tidak: 
-- Butuh nilai kembalian: Jika fungsi menghasilkan data yang akan digunakan 
-kembali. Contoh: hitungTotalHarga01() mengembalikan total harga 
-(int).  
-- Tidak butuh nilai kembalian: Jika fungsi hanya melakukan aksi seperti 
-mencetak ke layar. Contoh: Menu() hanya menampilkan teks, tidak 
-mengembalikan nilai. 
+- Butuh nilai kembalian: Jika fungsi menghasilkan data yang akan digunakan kembali. Contoh: hitungTotalHarga01() mengembalikan total harga (int).  
+- Tidak butuh nilai kembalian: Jika fungsi hanya melakukan aksi seperti mencetak ke layar. Contoh: Menu() hanya menampilkan teks, tidak mengembalikan nilai. 
+2. Tipe kembalian: int. 
+- Parameter pilihanMenu = nomor menu yang dipilih. 
+- Parameter banyakItem = jumlah pesanan untuk menu tersebut. 
